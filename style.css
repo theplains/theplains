@@ -28,7 +28,12 @@ h1 {
     object-fit: cover;
     object-position: center;
 }
+.banner .item a {
+    padding: 20px;
+    color:black;
+    background-color: burlywood;
 
+}
 @media all and (max-width:767px)
 {
     .banner .images {
