@@ -4,7 +4,27 @@ h1 {
     text-align: center;
 
 }
-.banner img {
-width: 100%;
-
+.banner {
+    background-image: url(kamalig.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.banner .inner {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.6);
+}
+.banner .images {
+    display:flex; 
+}
+.banner .item {
+    width: 33.33%;  
+    padding: 20px;
+}
+.banner .item img {
+    width: 100%;
+    height: 450px;  
+    object-fit: cover;
+    object-position: center;
 }
