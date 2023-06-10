@@ -29,7 +29,7 @@ h1 {
     object-position: center;
 }
 
-@media screen (max-width:767px)
+@media all and (max-width:767px)
 {
     .banner .images {
         flex-wrap: wrap;
